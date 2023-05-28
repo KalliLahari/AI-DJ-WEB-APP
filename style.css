@@ -1,0 +1,48 @@
+body{
+    background-size:cover;
+}
+
+.heading{
+    margin: 0px;
+    width: 100%;
+    font-size: 45px;
+    font-family: 'Bungee Shade', cursive;
+    color: black;
+}
+
+.note{
+    font-size: 18px;
+    color: black;
+    font-family: monospace;
+}
+
+.div_speed{
+    float: left;
+}
+
+.div_volume{
+    float: right;
+}
+
+.div_speed_img,.div_volume_img{
+    border-radius: 100px;
+    width: 200px;
+}
+
+#speed,#volume{
+    font-size: 23px;
+    margin: 15px;
+    font-family: monospace;
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius: 10px;
+    margin-top: 70px;
+}
+
+.button_play{
+    width: 130px;
+    font-size: 20px;
+    font-family: monospace;
+}
